@@ -1,0 +1,99 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #D1E1EA;
+}
+
+/* estilos globales */
+
+.contendor{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* encabezado*/
+
+header{
+  background-color: #043552;
+  color: white;
+  padding-top: 30px;
+  min-height: 40px;
+  border-bottom: 5px solid #fff;
+  font-size: 10px;
+  margin: 15px;
+  text-align: center;
+}
+
+/*para lema*/
+
+header #lema{
+    float: right;
+}
+
+header #lema h1{
+  margin: 0;
+}
+
+/*propiedades de resaltar CEM RAMON ROSA */
+
+header .resaltado, header.actual a{
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.logo img{
+  width: 100px;
+  height: 80px;
+
+}
+
+/*propiedades generales de las IMAGENES */
+.encabezado{
+  margin: 15px;
+  padding-top: 5px;
+  max-width: 100%;
+}
+
+.social h1{
+  font-family: gabriola;
+  text-align: center;
+  font-weight: bold; /* letra negrita */
+  color: #070707;
+}
+
+.sociales{
+  text-align: center;
+  padding-top: 40px; /*margen superior*/
+  padding-bottom: 40px; /*margen inferior*/
+}
+.sociales li{
+  display: inline-block; /*posicion horizontal de las imagenes*/
+  padding-left: 40px;
+  
+}
+
+.sociales li h4{
+  color: #080808;
+}
+
+.ubicacion{
+  text-align: center;
+  padding-top: 40px; /*margen superior*/
+  padding-bottom: 40px; /*margen inferior*/
+}
+
+.ubicacion p{
+  font-family: gabriola;
+  text-align: center;
+  font-weight: bold; /* letra negrita */
+  color: #070707;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #043552;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

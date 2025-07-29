@@ -1,0 +1,47 @@
+body{
+    background-color: #B3F6F9;
+}
+
+
+/* encabezado*/
+
+header{
+  background-color: #043552;
+  color: #ccc;
+  padding-top: 30px;
+  min-height: 40px;
+  border-bottom: 5px solid #fff;
+  font-size: 10px;
+  margin: 15px;
+  text-align: center;
+}
+
+/*para lema*/
+
+header #lema{
+    float: right;
+}
+
+header #lema h1{
+  margin: 0;
+}
+
+/*propiedades de resaltar CEM RAMON ROSA */
+
+header .resaltado, header.actual a{
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.logo img{
+  width: 100px;
+  height: 80px;
+
+}
+
+footer {
+  background-color: #043552;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,88 @@
+/* encabezado*/
+header{
+  background-color: #043552;
+  color: #ccc;
+  padding-top: 30px;
+  min-height: 40px;
+  border-bottom: 5px solid #edfa38;
+  font-size: 10px;
+  margin: 15px;
+  text-align: center;
+}
+
+/*para lema*/
+header #lema{
+    float: right;
+}
+
+header #lema h1{
+  margin: 0; 
+}
+
+/*propiedades de resaltar CEM RAMON ROSA */
+header .resaltado, header.actual a{
+  color: #FFD700;
+  font-weight: bold;
+}
+
+/*para logo del colegio*/
+.logo img{
+  width: 100px;
+  height: 80px;
+}
+
+/*para caja general de contenido e imagenes*/
+.contenedor{
+    display: flex;
+    padding: 1em;   
+}
+
+/*estilo solo para contenido*/
+.contenido{
+    flex: 2;
+    padding: 1em; 
+}
+
+.contenido h1{
+  text-align: center;
+  color: rgb(40, 77, 141);
+  font-size: 20px;
+}
+
+/*estilo para listas*/
+.contenido ul li{
+  text-align: justify;
+  font-size: 15px;
+}
+
+.disco{
+  list-style-type: circle;
+}
+
+.cuadrito{
+  list-style-type: square;
+}
+
+/*estilos generales para la caja de las imagenes*/
+.lateral{
+    flex: 1;
+    padding: 1em;
+    background-color: rgb(213, 226, 237);
+}
+
+/*estilo solo para imagenes*/
+.lateral img{
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+/*estilo para pie de pagina*/
+footer {
+  background-color: #043552;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}

@@ -1,0 +1,104 @@
+body{
+    background-color: #D1E1EA;
+}
+
+
+/* encabezado*/
+
+header{
+  background-color: #043552;
+  color: #ccc;
+  padding-top: 30px;
+  min-height: 40px;
+  border-bottom: 5px solid #fff;
+  font-size: 10px;
+  margin: 15px;
+  text-align: center;
+}
+
+/*para lema*/
+
+header #lema{
+    float: right;
+}
+
+header #lema h1{
+  margin: 0;
+}
+
+/*propiedades de resaltar CEM RAMON ROSA */
+
+header .resaltado, header.actual a{
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.logo img{
+  width: 100px;
+  height: 80px;
+
+}
+
+/*propiedades generales del contenido */
+.contenido{
+	max-width: 100%;
+	padding-top: 10px;
+	margin: 15px;
+}
+
+/*propiedades del titulo "Vision" */
+.titulo h3{
+  text-align: center;
+  padding-top: 20px;
+  color: #111357;
+  font-family: 'Broadway';
+  font-size: 40px;
+}
+
+/*propiedades de la historia */
+.part1 p{
+	color: #171515;
+	text-align: justify;
+	font-size: 20px;	 
+}
+
+.part2 p{
+	color: #171515;
+	text-align: justify;
+	font-size: 20px;	 
+}
+
+.part3 p{
+	color: #171515;
+	text-align: justify;
+	font-size: 20px;	 
+}
+
+/*propiedades de las listas */
+.listas{
+	color: #171515;
+	font-size: 20px;
+	font-family: 'Arial';
+}
+
+
+.listas2{
+	color: #171515;
+	font-size: 20px;
+	font-family: 'Arial';
+}
+
+
+/*propiedades del autor */
+.autor h3{
+	color: #DAA520;
+	font-size: 30px;
+	text-align: center;
+}
+
+footer {
+  background-color: #043552;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
